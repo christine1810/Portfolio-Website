@@ -1,0 +1,203 @@
+/*CSS RESET STYLES IN BROWSER*/
+		
+		*{
+        padding: auto;
+        margin: 0;
+        font-size:100%;
+        line-height: 1em;
+		}
+		
+        body { 
+        width: 100%;
+        margin: auto;
+        background: #E7EBE5;
+        color: #333333;
+        font-family: 'Rubik', sans-serif; 
+    
+        
+        }
+
+/*-- STYLESHEET --*/	
+
+	<style type="text/css">
+
+nav {
+    position: fixed;
+    top: 0;
+    left:0;
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+nav ul {
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+
+nav a:link {color: #fff}
+
+nav a:visited {color: #fff}
+
+nav a:hover {border-bottom: none;
+color: #000}
+    
+    
+    
+}
+    
+}
+
+		h1, h2, h3, p{
+			margin-bottom: 10px;
+            
+		}
+		
+		h1{
+			color: #ffffff;
+			font-size: 50px;
+            padding: 100px;
+
+            
+            
+		}
+		
+		h2{
+            font-size: 30px;
+			color: #ffffff;
+		}
+		
+		h3{
+            font-size: 30px;
+			color: #ffffff;
+		}
+		
+		div{
+			margin-bottom: 30px;
+            
+		}
+		
+/* ---------------- NAVIGATION/HOME----------------------- */
+
+    
+        
+
+        ul {
+            text-align: right;
+            padding: 3em;
+
+            
+        }
+        
+            
+            ul li {
+                display: inline-block;
+                border: 1px, solid blue;
+                margin-left: 15px;
+                text-align: left;
+            
+            }
+
+        #mono1{
+            padding: 100px;
+            
+            
+                    }
+
+        .section1{
+                background-color: #AC6060;
+}
+            
+/*------ ENF OF HOME SECTION---------*/
+
+
+
+
+
+/* ---------------- PORTFOLIO SECTION ----------------------- */
+            #portfolio {
+                display: grid;
+                grid-template-columns: 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093;
+                padding: 40px;
+                
+        }
+		
+        .portfolio{ 
+                grid-column: 1/12;
+                background-color: #9ECED2;
+                font-size: 80px;
+    
+}
+            
+            
+            #portfolio p{
+                grid-column: 1/12;
+                font-size: 70px;
+                      }
+
+            #travel{
+                grid-column: 1/12;
+                padding: 2px;
+
+            }
+
+            #designer{
+                grid-column: 1/4;
+                padding: 10px;
+            }
+
+            #personal{
+                grid-column:  4/9
+            }
+
+            #infographic{ 
+                        grid-column:9/12
+                
+}
+/*------ ENF OF PORTFOLIO SECTION---------*/
+
+
+
+/*------ BIO SECTION---------*/
+
+.bio{
+    background-color: #6D7474;
+    grid-column: 1/12;
+    font-size: 100px;
+    
+    
+}
+
+#me{
+    position: top right;
+    
+}
+
+
+/*------ BIO SECTION---------*/
+
+
+/* ---------------- CONNECT SECTION ----------------------- */
+            .connect{
+                grid-column:1/12;
+                background-color: #9ECED2;
+    
+        }
+
+		
+        
+        
+
+
+        
+
+    
+    
+/*-- END OF STYLESHEET --*/
