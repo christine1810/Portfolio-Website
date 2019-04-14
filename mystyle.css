@@ -9,6 +9,7 @@
 		}
 		
         body { 
+        margin: auto;
         max-width: 100%;
         margin: 0;
         background: #E7EBE5;
@@ -71,8 +72,6 @@ color: #000}
 			font-size: 60px;
             margin-left: 150px;
             margin-top: 100px;
-
-            
             
 		}
 		
@@ -110,8 +109,8 @@ color: #000}
             ul li {
                 display: inline-block;
                 border: 1px, solid blue;
-                margin-left: 15px;
-                text-align: left;
+                margin-left: 25px;
+                
             
             }
 
@@ -125,7 +124,7 @@ color: #000}
         .section1{
             
                 background-color: #AC6060;
-                padding-bottom: 200px;
+                padding-bottom: 150px;
         
             
 }
@@ -137,21 +136,12 @@ color: #000}
 
 
 /* ---------------- PORTFOLIO SECTION ----------------------- */
-            #portfolio {
-                display: grid;
-                grid-template-columns: 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093;
-                padding: 40px;
-                
         }
 		
-        .portfolio{ 
-                grid-column: 1/12;
-                background-color: #9ECED2;
-                font-size: 80px;
-                position: center;
-            
-    
-}
+        .portfolio{
+                display: grid;
+                grid-template-columns: 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093%;
+                }
             
             
             #portfolio p{
@@ -159,30 +149,33 @@ color: #000}
                 text-align: center;
                       }
 
-            #travel{
+            .travel{
                 grid-column:1/12;
-                padding: 2px;
+                background-color: #9ECED2;
+            
                 
 
             }
 
-            #designer{
-                grid-column: 1/4;
+            .designer{
+                grid-column: 3/6;
                 padding: 50px;
-                text-align: center;
+                background-color: #BB9B54;
+    
                 
             }
 
-            #personal{
-                grid-column:  4/8;
+            .personal{
                 padding: 50px;
-                text-align: center;
+                background-color: #ABB0B0;
+            
             }
 
-            #infographic{ 
-                grid-column:9/12;
-                padding: 50px;
-                text-align: center;
+            .infographic{ 
+                
+                padding: 50px; 
+                background-color: #AC6060;
+            
                 
 }
 /*------ ENF OF PORTFOLIO SECTION---------*/
@@ -193,13 +186,7 @@ color: #000}
 
 .bio{
     background-color: #6D7474;
-    grid-column: 1/12;
     font-size: 100px;
-}
-
-#me{
-    position: top right;
-    
 }
 
 
@@ -208,12 +195,22 @@ color: #000}
 
 /* ---------------- CONNECT SECTION ----------------------- */
             .connect{
-                grid-column: 1/12;
                 background-color: #9ECED2;
                 padding:
         }
+            .email{
+                text-align: center;
+                font-size: 40px
+                }
 
-		
+            .icons{
+                width: 100;
+                height: 100;
+                margin: auto;
+                
+
+            }
+
         
         
 
