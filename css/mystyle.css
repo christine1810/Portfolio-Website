@@ -5,11 +5,12 @@
         margin: 0;
         font-size:100%;
         line-height: 1em;
+        max-width: 100%;
 		}
 		
         body { 
-        width: 100%;
-        margin: auto;
+        max-width: 100%;
+        margin: 0;
         background: #E7EBE5;
         color: #333333;
         font-family: 'Rubik', sans-serif; 
@@ -27,7 +28,7 @@ nav {
     left:0;
     margin: 0;
     width: 100%;
-    padding: 10px;
+    padding: 2px;
 }
 
 nav ul {
@@ -35,6 +36,7 @@ nav ul {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
 
 nav ul li {
     display: inline;
@@ -57,26 +59,31 @@ color: #000}
 
 		h1, h2, h3, p{
 			margin-bottom: 10px;
+    
             
 		}
 		
 		h1{
 			color: #ffffff;
-			font-size: 50px;
-            padding: 100px;
+			font-size: 60px;
+            margin-left: 150px;
+            margin-top: 100px;
 
             
             
 		}
 		
 		h2{
-            font-size: 30px;
+            text-align: center;
+            font-size: 60px;
 			color: #ffffff;
 		}
 		
 		h3{
-            font-size: 30px;
+            text-align: center;
+            font-size: 60px;
 			color: #ffffff;
+            padding: 100px;
 		}
 		
 		div{
@@ -106,13 +113,18 @@ color: #000}
             }
 
         #mono1{
-            padding: 100px;
+            margin-left: 150px;
+         
             
             
                     }
 
         .section1{
+            
                 background-color: #AC6060;
+                padding-bottom: 200px;
+        
+            
 }
             
 /*------ ENF OF HOME SECTION---------*/
@@ -133,32 +145,41 @@ color: #000}
                 grid-column: 1/12;
                 background-color: #9ECED2;
                 font-size: 80px;
+                position: center;
+            
     
 }
             
             
             #portfolio p{
-                grid-column: 1/12;
-                font-size: 70px;
+                font-size: 40px;
+                text-align: center;
                       }
 
             #travel{
-                grid-column: 1/12;
+                grid-column:1/12;
                 padding: 2px;
+                
 
             }
 
             #designer{
                 grid-column: 1/4;
-                padding: 10px;
+                padding: 50px;
+                text-align: center;
+                
             }
 
             #personal{
-                grid-column:  4/9
+                grid-column:  4/8;
+                padding: 50px;
+                text-align: center;
             }
 
             #infographic{ 
-                        grid-column:9/12
+                grid-column:9/12;
+                padding: 50px;
+                text-align: center;
                 
 }
 /*------ ENF OF PORTFOLIO SECTION---------*/
@@ -171,8 +192,6 @@ color: #000}
     background-color: #6D7474;
     grid-column: 1/12;
     font-size: 100px;
-    
-    
 }
 
 #me{
@@ -186,9 +205,9 @@ color: #000}
 
 /* ---------------- CONNECT SECTION ----------------------- */
             .connect{
-                grid-column:1/12;
+                grid-column: 1/12;
                 background-color: #9ECED2;
-    
+                padding:
         }
 
 		
