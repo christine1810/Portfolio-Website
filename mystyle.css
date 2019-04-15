@@ -36,18 +36,19 @@ nav ul {
     letter-spacing: 5px;
     margin-right: 150px;
     font-size: 20px;
-    font-family: 'Rubik', sans-serif; 
+    font-family: 'Rubik', sans-serif;
+
 }
-
-
 nav ul li {
     display: inline;
     margin: 0px;
     padding: 10px;
+    
 }
 
 
-nav a:link {color: #fff}
+nav a:link {color: #fff;
+text-decoration: none;}
 
 nav a:visited {color: #fff}
 
@@ -76,15 +77,18 @@ color: #3B3A3A}
 
         }
 		
+
+
 		h1{
 			color: #ffffff;
-			font-size: 90px;
+			font-size: 80px;
             margin-left: 150px;
             margin-top: 100px;
             
 		}
 		
 		h2{
+            margin-top: 100px;
             text-align: center;
             font-size: 60px;
 			color: #3B3A3A;
@@ -103,24 +107,23 @@ color: #3B3A3A}
             
 		}
 
-.heading{
-    font-size: 40px;
-    margin-top:  50px;
-    margin-bottom: 5px;
-    text-align: left;
-    margin-left: 200px;
-    margin-right: 200px;
-    
-}
+        .heading{
+            font-size: 40px;
+            margin-top:  50px;
+            text-align: left;
+            margin-left: 200px;
+            margin-right: 200px;
 
-.bio p{ 
-        font-size: 25px;
-     color: #fff;
-     text-align: left;
-    margin-left: 200px;
-    margin-right: 200px;
-    
-   }
+        }
+
+        .bio p{ 
+            font-size: 35px;
+            color: #fff;
+            text-align: left;
+            margin-left: 200px;
+            margin-right: 200px;
+
+           }
 		
 /* ---------------- NAVIGATION/HOME----------------------- */
 
@@ -177,13 +180,12 @@ color: #3B3A3A}
             .grid{
                 display: grid;
                 grid-template-columns: 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093%;
-                grid-column-gap: 1px;
                 }
 
             .travel{
                 grid-column:1/12;
                 background-color: #9ECED2;
-                padding:10px;
+                padding:1px;
                 padding-top: 100px;
                 
 
@@ -191,7 +193,7 @@ color: #3B3A3A}
 
             .designer{
                 grid-column: 1/4;
-                padding: 10px;
+                padding: 20px;
                 background-color: #BB9B54;
             
                 
@@ -199,16 +201,16 @@ color: #3B3A3A}
 
             .personal{
                 grid-column: 4/8;
-                padding: 10px;
+                padding: 20px;
                 background-color: #ABB0B0;
-                position: center;
                 
             }
 
             .infographic{ 
                 grid-column: 8/12;
-                padding: 10px; 
+                padding: 20px; 
                 background-color: #AC6060;
+                
             
                 
 }
@@ -222,6 +224,8 @@ color: #3B3A3A}
             background-color: #6D7474;
             font-size: 100px;
             text-decoration-color: #fff;
+            padding-bottom: 100px;
+            padding-top: 100px;
         
 }
 
@@ -233,16 +237,20 @@ color: #3B3A3A}
 
             #connect{
                 background-color: #9ECED2;
+                padding-top: 100px;
+                padding-bottom: 100px;
+            
+                
                
         }
             .email{
                 text-align: center;
                 font-size: 30px;
                 text-decoration-color: #3B3A3A;
+                margin-top: 50px;
 
             }
 
-        
         
 
 
