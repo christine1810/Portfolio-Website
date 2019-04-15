@@ -1,233 +1,144 @@
 /*CSS RESET STYLES IN BROWSER*/
 		
-		*{
-        padding: auto;
-        margin: auto;
-        font-size:100%;
-        line-height: 1em;
-        max-width: 100%;
-		}
-		
-    body{       
-        max-width: 100%;
-        margin: 0;
-        background: #E7EBE5;
-        color: #3B3A3A;
-        font-family: 'Rubik', sans-serif; 
-        
-        }
+            *{ font-size:100%;
+               line-height: 1em;
+               max-width: 100%;}
+
+        body{ max-width: 100%;
+              margin: auto;
+              background: #E7EBE5;
+              color: #3B3A3A;
+              font-size: 100px;;
+              font-family: 'Rubik', sans-serif;}
 
 /*-- STYLESHEET --*/	
 
-	<style type="text/css">
+	   <style type="text/css">
 
-nav {
-    position: fixed;
-    top: 0;
-    left:0;
-    margin: 0;
-    width: 100%;
+
+/*-----HOME SECTION-----*/
+
+        nav{ position: fixed;
+              top: 0;
+              left:0;
+              margin: 0;
+              width: 100%;}
+
+        nav ul{ text-align: right;
+                 text-transform: uppercase;
+                 letter-spacing: 5px;
+                 margin-right: 150px;
+                 font-size: 25px;
+                 font-family: 'Rubik', sans-serif;}
+
+        nav ul li{ display: inline;
+                    margin: 0px;
+                    padding: 10px;}
+
+
+        nav a:link{ color: #fff;
+                    text-decoration: none;}
+
+        nav a:visited{ color: #fff}
+
+        nav a:hover{ border-bottom: none;
+                      color: #3B3A3A}
+    
+
+        ul{ text-align: center;
+             padding: 2em;}
+
+        #mono1{ margin-left: 150px;}
+
+        .home{ background-color: #AC6060;
+              padding-bottom: 150px;}
+
+        .hi h1{ font-size: 100px;}
+
+        .intro{ font-size: 50px;
+    
 }
-
-nav ul {
-    
-    text-align: right;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    margin-right: 150px;
-    font-size: 20px;
-    font-family: 'Rubik', sans-serif;
-
-}
-nav ul li {
-    display: inline;
-    margin: 0px;
-    padding: 10px;
-    
-}
-
-
-nav a:link {color: #fff;
-text-decoration: none;}
-
-nav a:visited {color: #fff}
-
-nav a:hover {border-bottom: none;
-color: #3B3A3A}
     
     
-    
-}
-    
-}
 
-		h1, h2, h3, p{
-			margin-bottom: 20px;
-            font-family: 'Rubik', sans-serif; 
-    
-            
-    
-            
-		}
+    /*-----TEXT STYLING------*/
 
-        p{ color: #3B3A3A;
-            text-align: center;
-            font-size: 30px;
-            padding: 10px;
 
-        }
+		h1, h2, h3, p{ margin-bottom: 20px;
+                       font-family: 'Rubik', sans-serif;}
+
+        p{ text-align: center;
+           font-size: 30px;
+           padding: 10px;
+           margin-left: 600px;
+           margin-right: 600px;}
 		
 
 
-		h1{
-			color: #ffffff;
+		h1{ color: #fff;
 			font-size: 80px;
             margin-left: 150px;
-            margin-top: 100px;
-            
-		}
+            margin-top: 100px;}
 		
-		h2{
-            margin-top: 100px;
+		h2{ margin-top: 100px;
             text-align: center;
-            font-size: 60px;
-			color: #3B3A3A;
-		}
+            text-decoration-color: #3B3A3A;
+            font-size: 100px;}
 		
-		h3{
-            text-align: center;
-            font-size: 60px;
-			color: #ffffff;
+		h3{ text-align: center;
+            font-size: 80;
+			color: #fff;
             padding: 20px;
-        
-		}
+            padding-top: 50px;}
 		
-		div{
-			margin-bottom: 30px;
-            
-		}
-
-        .heading{
-            font-size: 40px;
-            margin-top:  10px;
-            text-align: left;
-            margin-left: 200px;
-            margin-right: 200px;
-
-        }
-
-        .bio p{ 
-            font-size: 35px;
-            color: #fff;
-            text-align: left;
-            margin-left: 200px;
-            margin-right: 200px;
-
-           }
-		
-/* ---------------- NAVIGATION/HOME----------------------- */
-
-    
-        
-
-        ul {
-            text-align: center;
-            padding: 2em;
-
-            
-        }
-        
-            
-            ul li {
-                display: inline-block;
-                border: 1px, solid;
-            
-            }
-
-        #mono1{
-            margin-left: 150px;
-         
-            
-            
-                    }
-
-        .section1{
-            
-                background-color: #AC6060;
-                padding-bottom: 150px;
-        
-            
-}
+		div{ margin-bottom: 30px;}
 
         
-            
-/*------ ENF OF HOME SECTION---------*/
+
+
+/* ------------ PORTFOLIO SECTION ------------ */
+
+        .travel{ ;
+                 justify-self: center;
+                 background-color: #9ECED2;}
 
 
 
+        .grid{ display: grid;
+               grid-template-columns: repeat(3, 1fr);
+               background-color: green}
 
+        .designer{ grid-column: 1;
+                   background-color: #BB9B54;}
 
-/* ---------------- PORTFOLIO SECTION ----------------------- */
+        .personal{ grid-column: 2;
+                   background-color: #3B3A3A;}
 
-            #portfolio h2{
-                text-decoration-color: #3B3A3A;
-                font-size: 100px;
-    
-}
-        
-            .grid{
-                display: grid;
-                grid-template-columns: 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093%;
-                grid-gap: 1px;
-                
-                }
+        .infographic{ grid-column: 3;
+                      background-color: #AC6060;}
 
-            .travel{
-                grid-column:1/12;
-                background-color: #9ECED2;
-                padding: 50px;
-                padding-top: 100px;
-                
-
-            }
-
-            .designer{
-                grid-column: 1/4;
-                padding: 30px;
-                background-color: #BB9B54;
-            
-                
-            }
-
-            .personal{
-                grid-column: 4/8;
-                padding: 30px;
-                background-color: #ABB0B0;
-                
-                
-            }
-
-            .infographic{ 
-                grid-column: 8/12;
-                padding: 30px; 
-                background-color: #AC6060;
-                
-            
-                
-}
-/*------ ENF OF PORTFOLIO SECTION---------*/
+/*------ END OF PORTFOLIO SECTION---------*/
 
 
 
 /*------ BIO SECTION---------*/
 
-        #bio{
-            background-color: #6D7474;
-            font-size: 100px;
-            text-decoration-color: #fff;
-            
+        #bio{ background-color: #464949;
+              padding-bottom: 100px;
+              padding-top: 100;}
+             
+        .heading{ font-size: 60px;
+                  margin-top:  100px;
+                  margin-left: 200px;
+                  margin-right: 200px;}
+
+        #bio p{ font-size: 30px;
+                color: #E7EBE5;
+                text-align: justify;
+                margin-left: 600px;
+                margin-right: 600px;}
         
-}
+
 
 
 /*------ BIO SECTION---------*/
@@ -237,53 +148,41 @@ color: #3B3A3A}
 
             #connect{
                 background-color: #9ECED2;
-                padding-top: 50px;
-                padding-bottom: 50px;
-            
-                
-               
-        }
-            .email{
-                text-align: center;
-                font-size: 30px;
-                margin-top: 50px;
-}
-                
-                
-            .email a{
-                text-decoration: none;
-            color: #3B3A3A;     
-            }
+                padding-top: 100px;
+                padding-bottom: 50px;}
 
-            .email a:hover {
+            .email{ text-align: center;
+                    font-size: 30px;
+                    margin-top: 50px;}
+                
+            .email a{ text-decoration: none;
+                      color: #3B3A3A;}
+
+            .email a:hover { border-bottom: none;
+                             transition: all 0.4s ease-in-out; 
+                             transform:scale(1.2);}
+                
+            
+
+
+            .connections li { margin: 0 15px;
+                              padding: 0;
+                              list-style: none; 
+                              display: inline-block;}
+
+            .connections a:link { border-bottom: none;}
+
+            .connections img {
+                               border: none;}
+
+             .connections a:hover img {
                     border-bottom: none;
                     transition: all 0.4s ease-in-out; 
                     transform:scale(1.2);}
-                
 
-            
+            ul li {display: inline-block;
+                            border: 1px, solid;}
 
-
-.connections li {
-	margin: 0 15px;
-	padding: 0;
-	list-style: none; 
-	display: inline-block;}
-	
-.connections a:link {
-	border-bottom: none;}
-
-.connections img {
-	opacity: 1;
-    border: none;
-	}
-	
- .connections a:hover img {
-		opacity: 1.0;
-		border-bottom: none;
-		transition: all 0.4s ease-in-out; 
-        transform:scale(1.2);}
-        
 
 
         
