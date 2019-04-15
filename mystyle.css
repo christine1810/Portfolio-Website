@@ -8,14 +8,12 @@
         max-width: 100%;
 		}
 		
-        body { 
-        margin: auto;
+    body{       
         max-width: 100%;
         margin: 0;
         background: #E7EBE5;
-        color: #333333;
+        color: #3B3A3A;
         font-family: 'Rubik', sans-serif; 
-    
         
         }
 
@@ -29,22 +27,23 @@ nav {
     left:0;
     margin: 0;
     width: 100%;
-    padding: 2px;
 }
 
 nav ul {
-    text-decoration: none;
+    
     text-align: right;
     text-transform: uppercase;
     letter-spacing: 5px;
     margin-right: 150px;
     font-size: 20px;
+    font-family: 'Rubik', sans-serif; 
 }
 
 
 nav ul li {
     display: inline;
-    margin: 10px;
+    margin: 0px;
+    padding: 10px;
 }
 
 
@@ -53,7 +52,7 @@ nav a:link {color: #fff}
 nav a:visited {color: #fff}
 
 nav a:hover {border-bottom: none;
-color: #000}
+color: #3B3A3A}
     
     
     
@@ -62,14 +61,24 @@ color: #000}
 }
 
 		h1, h2, h3, p{
-			margin-bottom: 10px;
+			margin-bottom: 20px;
+            font-family: 'Rubik', sans-serif; 
+    
+            
     
             
 		}
+
+        p{ color: #3B3A3A;
+            text-align: center;
+            font-size: 30px;
+            padding: 10px;
+
+        }
 		
 		h1{
 			color: #ffffff;
-			font-size: 60px;
+			font-size: 90px;
             margin-left: 150px;
             margin-top: 100px;
             
@@ -78,20 +87,40 @@ color: #000}
 		h2{
             text-align: center;
             font-size: 60px;
-			color: #ffffff;
+			color: #3B3A3A;
 		}
 		
 		h3{
             text-align: center;
             font-size: 60px;
 			color: #ffffff;
-            padding: 100px;
+            padding: 20px;
+        
 		}
 		
 		div{
 			margin-bottom: 30px;
             
 		}
+
+.heading{
+    font-size: 40px;
+    margin-top:  50px;
+    margin-bottom: 5px;
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+.bio p{ 
+        font-size: 25px;
+     color: #fff;
+     text-align: left;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+   }
 		
 /* ---------------- NAVIGATION/HOME----------------------- */
 
@@ -99,7 +128,7 @@ color: #000}
         
 
         ul {
-            text-align: right;
+            text-align: center;
             padding: 3em;
 
             
@@ -108,7 +137,7 @@ color: #000}
             
             ul li {
                 display: inline-block;
-                border: 1px, solid blue;
+                border: 1px, solid;
                 margin-left: 25px;
                 
             
@@ -128,6 +157,8 @@ color: #000}
         
             
 }
+
+        
             
 /*------ ENF OF HOME SECTION---------*/
 
@@ -136,44 +167,47 @@ color: #000}
 
 
 /* ---------------- PORTFOLIO SECTION ----------------------- */
-        }
-		
-        .portfolio{
+
+            #portfolio h2{
+                text-decoration-color: #3B3A3A;
+                font-size: 100px;
+    
+}
+        
+            .grid{
                 display: grid;
-                grid-template-columns: 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093%;
+                grid-template-columns: 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093% 9.093%;
+                grid-column-gap: 1px;
                 }
-            
-            
-            #portfolio p{
-                font-size: 40px;
-                text-align: center;
-                      }
 
             .travel{
                 grid-column:1/12;
                 background-color: #9ECED2;
-            
+                padding:10px;
+                padding-top: 100px;
                 
 
             }
 
             .designer{
-                grid-column: 3/6;
-                padding: 50px;
+                grid-column: 1/4;
+                padding: 10px;
                 background-color: #BB9B54;
-    
+            
                 
             }
 
             .personal{
-                padding: 50px;
+                grid-column: 4/8;
+                padding: 10px;
                 background-color: #ABB0B0;
-            
+                position: center;
+                
             }
 
             .infographic{ 
-                
-                padding: 50px; 
+                grid-column: 8/12;
+                padding: 10px; 
                 background-color: #AC6060;
             
                 
@@ -184,9 +218,11 @@ color: #000}
 
 /*------ BIO SECTION---------*/
 
-.bio{
-    background-color: #6D7474;
-    font-size: 100px;
+        #bio{
+            background-color: #6D7474;
+            font-size: 100px;
+            text-decoration-color: #fff;
+        
 }
 
 
@@ -194,20 +230,15 @@ color: #000}
 
 
 /* ---------------- CONNECT SECTION ----------------------- */
-            .connect{
+
+            #connect{
                 background-color: #9ECED2;
-                padding:
+               
         }
             .email{
                 text-align: center;
-                font-size: 40px
-                }
-
-            .icons{
-                width: 100;
-                height: 100;
-                margin: auto;
-                
+                font-size: 30px;
+                text-decoration-color: #3B3A3A;
 
             }
 
