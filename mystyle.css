@@ -1,14 +1,14 @@
 /*CSS RESET STYLES IN BROWSER*/
 		
             *{ font-size:100%;
-               line-height: 1em;
+               line-height: 1.25em;
                max-width: 100%;}
 
         body{ max-width: 100%;
               margin: auto;
               background: #E7EBE5;
               color: #3B3A3A;
-              font-size: 100px;;
+              font-size: 100px;;;
               font-family: 'Rubik', sans-serif;}
 
 /*-- STYLESHEET --*/	
@@ -16,21 +16,22 @@
 	   <style type="text/css">
 
 
-/*-----HOME SECTION-----*/
+/*-----NAV SECTION-----*/
 
         nav{ position: fixed;
-              width: 100%;}
+              width: 100%;
+             margin-top:20px;    }
 
         nav ul{  text-align: right;
                  text-transform: uppercase;
                  letter-spacing: 2px;
-                 margin-right: 150px;
                  font-size: 25px;
                  font-family: 'Rubik', sans-serif;}
 
         nav ul li{ display: inline;
-                    margin: 0px;
-                    padding: 30px;}
+                   margin: 20px;
+                   padding: 30px;
+                   position: right;}
 
 
         nav a:link{ color: #fff;
@@ -40,19 +41,34 @@
 
         nav a:hover{ border-bottom: none;
                       color: #3B3A3A}
-    
 
-        ul{ text-align: center;}
+        .sticky{ position: fixed;
+                 top: 0;
+                 width: 100%;
+                 background-color: #AC6060;}
 
-        #mono1{ margin-left: 150px;}
+        .mono1{ margin: relative;
+                margin: 10px 0px 0px 150px;
+                float: left;
+                width: 150px;
+                height: 150px;
+                padding-bottom: 10px}
+
+/*---------NAV SECTION--------*/
 
         .home{ background-color: #AC6060;
-              padding-bottom: 150px;}
+               padding-bottom: 150px;}
 
-        .hi h1{ font-size: 100px;}
+        .section1{ background-color: #AC6060;
+                   padding-top: 30px;
+                   padding bottom: 50px;
+}
+
+        .hello { letter-spacing: 2px;
+                font-size: 100px;}
 
         .intro{ font-size: 40px;
-    
+                padding-bottom: 50px;
 }
     
     
@@ -65,15 +81,14 @@
 
         p{ text-align: center;
            font-size: 30px;
-           margin-left: 600px;
-           margin-right: 600px;}
+           margin:auto;
+           min-width: 900px;}
 		
-
-
 		h1{ color: #fff;
 			font-size: 80px;
             margin-left: 150px;
-            margin-top: 100px;}
+            margin-top: 100px;
+            letter-spacing: 2px;}
 		
 		h2{ margin-top: 100px;
             text-align: center;
@@ -89,26 +104,41 @@
 		div{ margin-bottom: 30px;}
 
         
+        .clear-float{ clear: both;}
+
+        
 
 
 /* ------------ PORTFOLIO SECTION ------------ */
-
-        .travel{ align-content: center;
-                 background-color: #9ECED2;}
+    
 
 
 
         .grid{ display: grid;
+               grid-template-rows: repeat(2, 1fr);
                grid-template-columns: repeat(3, 1fr);
-               grid-column-gap: 30px;}
+               grid-column-gap: 30px;
+               vertical-align: middle}
 
-        .designer{ grid-column: 1;
+        .travel{ grid-row: 1;
+                 grid-column: 1/4;
+                 background-color: #9ECED2;
+                 margin: auto;
+                 margin-bottom: inherit;}
+
+            #app{}
+                
+
+        .designer{ grid-row: 2;
+                   grid-column: 1;
                    background-color: #BB9B54;}
 
-        .personal{ grid-column: 2;
+        .personal{ grid-row: 2;
+                   grid-column: 2;
                    background-color: #3B3A3A;}
 
-        .infographic{ grid-column: 3;
+        .infographic{ grid-row:2;
+                      grid-column: 3;
                       background-color: #AC6060;}
 
 /*------ END OF PORTFOLIO SECTION---------*/
@@ -144,7 +174,8 @@
             #connect{
                 background-color: #9ECED2;
                 padding-top: 100px;
-                padding-bottom: 50px;}
+                padding-bottom: 50px;
+margin: auto;}
 
             .email{ text-align: center;
                     font-size: 30px;
@@ -162,21 +193,20 @@
 
             .connections li { margin: 0 15px;
                               padding: 0;
-                              list-style: none; 
+                              list-style: none;
                               display: inline-block;}
 
             .connections a:link { border-bottom: none;}
 
-            .connections img {
-                               border: none;}
+            .connections img { border: none;
+                               margin: auto;}
 
-             .connections a:hover img {
-                    border-bottom: none;
-                    transition: all 0.4s ease-in-out; 
-                    transform:scale(1.2);}
+             .connections a:hover img { border-bottom: none;
+                                        transition: all 0.4s ease-in-out; 
+                                        transform:scale(1.2);}
 
-            ul li {display: inline-block;
-                            border: 1px, solid;}
+            ul li { display: inline-block;
+                    border: 1px, solid;}
 
 
 
