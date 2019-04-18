@@ -19,8 +19,7 @@
 /*-----NAV SECTION-----*/
 
         nav{ position: fixed;
-              width: 100%;
-             margin-top:20px;    }
+             width: 100%;}
 
         nav ul{  text-align: right;
                  text-transform: uppercase;
@@ -48,11 +47,11 @@
                  background-color: #AC6060;}
 
         .mono1{ margin: relative;
-                margin: 10px 0px 0px 150px;
+                margin: 0px 0px 0px 150px;
                 float: left;
                 width: 150px;
                 height: 150px;
-                padding-bottom: 10px}
+                padding-bottom: 20px}
 
 /*---------NAV SECTION--------*/
 
@@ -61,20 +60,17 @@
 
         .section1{ background-color: #AC6060;
                    padding-top: 30px;
-                   padding bottom: 50px;
-}
+                   padding bottom: 50px;}
 
         .hello { letter-spacing: 2px;
                 font-size: 100px;}
 
         .intro{ font-size: 40px;
-                padding-bottom: 50px;
-}
+                padding-bottom: 50px;}
     
-    
+    /*-------END OF NAV SECTION-------*/
 
     /*-----TEXT STYLING------*/
-
 
 		h1, h2, h3, p{ margin-bottom: 20px;
                        font-family: 'Rubik', sans-serif;}
@@ -102,44 +98,39 @@
             padding-top: 50px;}
 		
 		div{ margin-bottom: 30px;}
-
         
         .clear-float{ clear: both;}
 
-        
-
-
 /* ------------ PORTFOLIO SECTION ------------ */
-    
-
-
 
         .grid{ display: grid;
                grid-template-rows: repeat(2, 1fr);
                grid-template-columns: repeat(3, 1fr);
                grid-column-gap: 30px;
-               vertical-align: middle}
+              }
 
         .travel{ grid-row: 1;
                  grid-column: 1/4;
                  background-color: #9ECED2;
-                 margin: auto;
+                 padding: 100px;
                  margin-bottom: inherit;}
-
-            #app{}
-                
 
         .designer{ grid-row: 2;
                    grid-column: 1;
-                   background-color: #BB9B54;}
+                   background-color: #BB9B54;
+                   margin: auto;}
+
+  
 
         .personal{ grid-row: 2;
                    grid-column: 2;
-                   background-color: #3B3A3A;}
+                   background-color: #3B3A3A;
+                   margin: auto;}
 
         .infographic{ grid-row:2;
                       grid-column: 3;
-                      background-color: #AC6060;}
+                      background-color: #AC6060;
+                      margin: auto;}
 
 /*------ END OF PORTFOLIO SECTION---------*/
 
@@ -162,20 +153,18 @@
                 text-align: justify;
                 margin-left: 600px;
                 margin-right: 600px;}
-        
-
-
 
 /*------ BIO SECTION---------*/
 
 
 /* ---------------- CONNECT SECTION ----------------------- */
 
-            #connect{
+            .connect{
                 background-color: #9ECED2;
                 padding-top: 100px;
                 padding-bottom: 50px;
-margin: auto;}
+                justify-content: center;
+                }
 
             .email{ text-align: center;
                     font-size: 30px;
@@ -187,14 +176,12 @@ margin: auto;}
             .email a:hover { border-bottom: none;
                              transition: all 0.4s ease-in-out; 
                              transform:scale(1.2);}
-                
-            
 
 
-            .connections li { margin: 0 15px;
-                              padding: 0;
-                              list-style: none;
-                              display: inline-block;}
+            .connections li { margin: 0px 15px 0px 0px;
+                              display: inline-block;
+                              height:70px;
+                              width: 70px;}
 
             .connections a:link { border-bottom: none;}
 
@@ -205,13 +192,9 @@ margin: auto;}
                                         transition: all 0.4s ease-in-out; 
                                         transform:scale(1.2);}
 
-            ul li { display: inline-block;
+             ul li { display: inline-block ;
+                     align-items: center;
                     border: 1px, solid;}
-
-
-
-        
-
     
     
 /*-- END OF STYLESHEET --*/
