@@ -1,15 +1,17 @@
 /*CSS RESET STYLES IN BROWSER*/
 		
-            *{ font-size:100%;
+            *{ font-size: 100%;
                line-height: 1.25em;
-               max-width: 100%;}
+               max-width: 100%;
+               margin: auto; }
 
         body{ max-width: 100%;
               margin: auto;
               background: #E7EBE5;
               color: #3B3A3A;
-              font-size: 100px;;;
-              font-family: 'Rubik', sans-serif;}
+              font-size: 100px;
+              font-family: 'Rubik', sans-serif;
+              letter-spacing: 3px;}
 
 /*-- STYLESHEET --*/	
 
@@ -21,14 +23,14 @@
         nav{ position: fixed;
              width: 100%;}
 
-        nav ul{  text-align: right;
+        nav ul{  margin-top: 20px;
+                 text-align: right;
                  text-transform: uppercase;
                  letter-spacing: 2px;
-                 font-size: 25px;
+                 font-size: 15px;
                  font-family: 'Rubik', sans-serif;}
 
         nav ul li{ display: inline;
-                   margin: 20px;
                    padding: 30px;
                    position: right;}
 
@@ -46,42 +48,43 @@
                  width: 100%;
                  background-color: #AC6060;}
 
-        .mono1{ margin: relative;
-                margin: 0px 0px 0px 150px;
+        .mono1{
+                margin: 20px 0px 0px 100px;
                 float: left;
-                width: 150px;
-                height: 150px;
+                width: 100px;
+                height: 100px;
                 padding-bottom: 20px}
 
 /*---------NAV SECTION--------*/
 
         .home{ background-color: #AC6060;
-               padding-bottom: 150px;}
+               padding-bottom: 150px;
+word-spacing: 1px}
 
         .section1{ background-color: #AC6060;
                    padding-top: 30px;
                    padding bottom: 50px;}
 
         .hello { letter-spacing: 2px;
-                font-size: 100px;}
+                 font-size: 50px;}
 
-        .intro{ font-size: 40px;
+        .intro{ font-size: 20px;
                 padding-bottom: 50px;}
     
     /*-------END OF NAV SECTION-------*/
 
     /*-----TEXT STYLING------*/
 
-		h1, h2, h3, p{ margin-bottom: 20px;
+		h1, h2, h3, p{ margin-bottom: 10px;
                        font-family: 'Rubik', sans-serif;}
 
         p{ text-align: center;
-           font-size: 30px;
-           margin:auto;
+           font-size: 10px;
+           padding: 0px;
            min-width: 900px;}
 		
 		h1{ color: #fff;
-			font-size: 80px;
+			font-size: 50px;
             margin-left: 150px;
             margin-top: 100px;
             letter-spacing: 2px;}
@@ -103,6 +106,10 @@
 
 /* ------------ PORTFOLIO SECTION ------------ */
 
+
+•portfolio{display: block;
+                      margin: auto;
+                      width: anything under 100%}
         .grid{ display: grid;
                grid-template-rows: repeat(2, 1fr);
                grid-template-columns: repeat(3, 1fr);
@@ -111,25 +118,20 @@
 
         .travel{ grid-row: 1;
                  grid-column: 1/4;
-                 background-color: #9ECED2;
-                 padding: 100px;
                  margin-bottom: inherit;}
 
         .designer{ grid-row: 2;
                    grid-column: 1;
-                   background-color: #BB9B54;
                    margin: auto;}
 
   
 
         .personal{ grid-row: 2;
                    grid-column: 2;
-                   background-color: #3B3A3A;
                    margin: auto;}
 
         .infographic{ grid-row:2;
                       grid-column: 3;
-                      background-color: #AC6060;
                       margin: auto;}
 
 /*------ END OF PORTFOLIO SECTION---------*/
@@ -138,7 +140,7 @@
 
 /*------ BIO SECTION---------*/
 
-        #bio{ background-color: #464949;
+        #bio{ background-color: #BB9B54;
               padding-bottom: 10px;
               padding-top: 10;}
              
@@ -146,7 +148,7 @@
                   padding: 0 0 100 100;
                   text-align: justify;
                   margin-left: 600px;
-                margin-right: 600px;}
+                  margin-right: 600px;}
 
         #bio p{ font-size: 30px;
                 color: #E7EBE5;
@@ -160,11 +162,14 @@
 /* ---------------- CONNECT SECTION ----------------------- */
 
             .connect{
+                display: block;
                 background-color: #9ECED2;
                 padding-top: 100px;
-                padding-bottom: 50px;
-                justify-content: center;
-                }
+                padding-bottom: 50px;}
+
+            img.lion{ display: block;
+                      margin: auto;
+                      width: anything under 100%}
 
             .email{ text-align: center;
                     font-size: 30px;
@@ -181,20 +186,24 @@
             .connections li { margin: 0px 15px 0px 0px;
                               display: inline-block;
                               height:70px;
-                              width: 70px;}
+                              width: 70px;
+}
 
-            .connections a:link { border-bottom: none;}
+            .connections { display: flex;
+                           align-items: center;
+                           justify-content: center;}
 
-            .connections img { border: none;
-                               margin: auto;}
+            .connections a:link {border-bottom: none;}             
 
-             .connections a:hover img { border-bottom: none;
-                                        transition: all 0.4s ease-in-out; 
-                                        transform:scale(1.2);}
+            .connections a:hover img { border-bottom: none;
+                                        transition: all 0.4s ease-in-out; transform:scale(1.2)}
 
-             ul li { display: inline-block ;
-                     align-items: center;
-                    border: 1px, solid;}
+
+            .icons{ display: flex;
+                    align-items: center;
+                    justify-content: center;}
+            
+
     
     
 /*-- END OF STYLESHEET --*/
