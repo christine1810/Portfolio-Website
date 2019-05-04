@@ -30,7 +30,7 @@
              width: 100%;}
 
         nav ul{  margin: auto;
-                 padding-top: 10px;
+                 padding-top: 50px;
                  padding-right: 50px;
                  text-align: right;
                  text-transform: uppercase;
@@ -39,7 +39,8 @@
                  font-size: 15px;}
 
         nav ul li{ display: inline;
-                   position: right;}
+                   position: right;
+                   font-family: 'Abril Fatface', 'Libre Franklin', 'sans serif';}
 
 
         nav a:link{ color: #fff;
@@ -60,7 +61,7 @@
                 float: left;
                 width: 100px;
                 height: 100px;
-                padding: 14px 0px 10px 50px;}
+                padding: 50px 0px 10px 50px;}
 
 /*---------NAV SECTION--------*/
 
@@ -101,8 +102,8 @@
             font-size: 50px;font-family: 'Abril Fatface', 'Libre Franklin', 'sans serif';}
 		
 		h3{ text-align: center;
-            font-size: 40px;
-			color: #fff;
+            font-size: 60px;
+			color: #3B3A3A;
             padding: 20px;
             padding-top: 50px;
             font-family: 'Abril Fatface', 'Libre Franklin', 'sans serif';}
@@ -111,6 +112,9 @@
         
         .clear-float{ clear: both;}
 
+        .hr{ 
+             width: ;
+             height: 0px}
 /* ------------ PORTFOLIO SECTION ------------ */
 
 
@@ -127,46 +131,88 @@
         .travel{ grid-row: 1;
                  grid-column: 1/4;
                  margin: auto;
-                 max-width: 66%;}
+                 max-width: 66%;
+                 border-radius: 15px;}
 
         .designer{ grid-row: 2;
                    grid-column: 1;
-                   margin:auto;
-                   max-width: 80%;}
+                   margin: auto auto auto 50px;
+                   max-width: 80%;
+                   border-radius: 15px;}
 
   
 
         .personal{ grid-row: 2;
                    grid-column: 2;
                    margin: auto;
-                   max-width: 80%;}
+                   max-width: 80%;
+                   border-radius: 15px;}
 
-        .infographic{ grid-row:2;
+        .infographic{ grid-row: 2;
                       grid-column: 3;
-                      margin: auto;
-                      max-width: 80%;}
+                      margin: auto 50px auto auto;
+                      max-width: 80%;
+                      border-radius: 15px;}
 
+
+
+.overlay0 {
+ position: absolute;
+ top: 9.7%;
+ bottom: 0;
+ left: 20%;
+ right: 0;
+ height: 89.1%;
+ width:90%;
+ opacity: 0;
+ transition: .5s ease;
+ background-color: #D8D8D8;
+}
+
+.text0 {
+ color: #404040;
+ font-size: 35px;
+ position: absolute;
+ top: 45%;
+ left: 50%;
+ -webkit-transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+ text-align: center;
+}
+
+.text20 {
+ color: #404040;
+ font-size: 20px;
+ position: absolute;
+ top: 51%;
+ left: 50%;
+ -webkit-transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+ text-align: center;
+}
 /*------ END OF PORTFOLIO SECTION---------*/
 
 
 
 /*------ BIO SECTION---------*/
 
-        #bio{ background-color: #BB9B54;
+        #bio{ background-color: #E7EBE5;
               padding-bottom: 10px;
               padding-top: 10;}
              
-        .heading{ font-size: 60px;
-                  padding: 0 0 100 100;
+        .heading{ font-size: 50px;
+                  padding-left: 50px;
                   text-align: justify;
                   margin-left: 0px;
                   margin-right: 0px;}
 
         #bio p{ font-size: 20px;
-                color: #E7EBE5;
+                color: #3B3A3A;
                 text-align: left;
-                padding-left: 10px;
-                padding-right: 10px}
+                padding-left: 50px;
+                padding-right: 50px}
 
 /*------ BIO SECTION---------*/
 
