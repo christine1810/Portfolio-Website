@@ -11,8 +11,13 @@
               background: #E7EBE5;
               color: #3B3A3A;
               font-size: 100px;
+              font-family: 'Libre Franklin', sans-serif;
+              letter-spacing: 5px;}
+
+/*---- font-family: 'Montserrat Alternates', sans-serif;
+              font-family: 'Abril Fatface', cursive;
+              font-family: 'Roboto', sans-serif;
               font-family: 'Rubik', sans-serif;
-              letter-spacing: 3px;}
 
 /*-- STYLESHEET --*/	
 
@@ -24,15 +29,16 @@
         nav{ position: fixed;
              width: 100%;}
 
-        nav ul{  margin:auto;
+        nav ul{  margin: auto;
+                 padding-top: 10px;
+                 padding-right: 50px;
                  text-align: right;
                  text-transform: uppercase;
                  letter-spacing: 2px;
-                 font-size: 15px;
-                 font-family: 'Rubik', sans-serif;}
+                 word-spacing: 20px;
+                 font-size: 15px;}
 
         nav ul li{ display: inline;
-                   padding: 30px;
                    position: right;}
 
 
@@ -54,7 +60,7 @@
                 float: left;
                 width: 100px;
                 height: 100px;
-                padding-bottom: 0px}
+                padding: 14px 0px 10px 50px;}
 
 /*---------NAV SECTION--------*/
 
@@ -67,24 +73,24 @@
                    padding bottom: 50px;}
 
         .hello { letter-spacing: 2px;
-                 font-size: 50px;}
+                 font-size: 100px;
+                 font-family: 'Abril Fatface', 'Libre Franklin', 'sans serif';}
 
-        .intro{ font-size: 20px;
+        .intro{ font-size: 30px;
                 padding-bottom: 50px;}
     
     /*-------END OF NAV SECTION-------*/
 
     /*-----TEXT STYLING------*/
 
-		h1, h2, h3, p{ margin-bottom: 10px;
-                       font-family: 'Rubik', sans-serif;}
+		h1, h2, h3, p{ margin-bottom: 10px;}
 
         p{ text-align: center;
            font-size: 10px;
            padding-top: 40px;}
 		
 		h1{ color: #fff;
-			font-size: 50px;
+			font-size: 70px;
             margin-left: 50px;
             margin-top: 50px;
             letter-spacing: 2px;}
@@ -92,13 +98,14 @@
 		h2{ margin-top: 100px;
             text-align: center;
             text-decoration-color: #3B3A3A;
-            font-size: 50px;}
+            font-size: 50px;font-family: 'Abril Fatface', 'Libre Franklin', 'sans serif';}
 		
 		h3{ text-align: center;
             font-size: 40px;
 			color: #fff;
             padding: 20px;
-            padding-top: 50px;}
+            padding-top: 50px;
+            font-family: 'Abril Fatface', 'Libre Franklin', 'sans serif';}
 		
 		div{ margin-bottom: 30px;}
         
@@ -107,7 +114,7 @@
 /* ------------ PORTFOLIO SECTION ------------ */
 
 
-        .portfolio{display: block;
+        •portfolio{   display: block;
                       margin: auto;
                       width: anything under 100%}
 
@@ -119,21 +126,25 @@
 
         .travel{ grid-row: 1;
                  grid-column: 1/4;
-                 margin-bottom: inherit;}
+                 margin: auto;
+                 max-width: 66%;}
 
         .designer{ grid-row: 2;
                    grid-column: 1;
-                   margin: auto;}
+                   margin:auto;
+                   max-width: 80%;}
 
   
 
         .personal{ grid-row: 2;
                    grid-column: 2;
-                   margin: auto;}
+                   margin: auto;
+                   max-width: 80%;}
 
         .infographic{ grid-row:2;
                       grid-column: 3;
-                      margin: auto;}
+                      margin: auto;
+                      max-width: 80%;}
 
 /*------ END OF PORTFOLIO SECTION---------*/
 
@@ -165,7 +176,7 @@
             .connect{
                 display: block;
                 background-color: #9ECED2;
-                padding-top: 100px;
+                padding-top: 50px;
                 padding-bottom: 50px;}
 
             img.lion{ display: block;
