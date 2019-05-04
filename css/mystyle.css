@@ -155,43 +155,6 @@
                       border-radius: 15px;}
 
 
-
-.overlay0 {
- position: absolute;
- top: 9.7%;
- bottom: 0;
- left: 20%;
- right: 0;
- height: 89.1%;
- width:90%;
- opacity: 0;
- transition: .5s ease;
- background-color: #D8D8D8;
-}
-
-.text0 {
- color: #404040;
- font-size: 35px;
- position: absolute;
- top: 45%;
- left: 50%;
- -webkit-transform: translate(-50%, -50%);
- -ms-transform: translate(-50%, -50%);
- transform: translate(-50%, -50%);
- text-align: center;
-}
-
-.text20 {
- color: #404040;
- font-size: 20px;
- position: absolute;
- top: 51%;
- left: 50%;
- -webkit-transform: translate(-50%, -50%);
- -ms-transform: translate(-50%, -50%);
- transform: translate(-50%, -50%);
- text-align: center;
-}
 /*------ END OF PORTFOLIO SECTION---------*/
 
 
