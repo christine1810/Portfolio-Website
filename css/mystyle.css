@@ -14,10 +14,6 @@
               font-family: 'Libre Franklin', sans-serif;
               letter-spacing: 5px;}
 
-/*---- font-family: 'Montserrat Alternates', sans-serif;
-              font-family: 'Abril Fatface', cursive;
-              font-family: 'Roboto', sans-serif;
-              font-family: 'Rubik', sans-serif;
 
 /*-- STYLESHEET --*/	
 
@@ -71,14 +67,18 @@
 
         .section1{ background-color: #AC6060;
                    padding-top: 30px;
-                   padding bottom: 50px;}
+                   padding bottom: 100px;}
 
         .hello { letter-spacing: 2px;
-                 font-size: 100px;
+                 font-size: 150px;
                  font-family: 'Abril Fatface', 'Libre Franklin', 'sans serif';}
 
         .intro{ font-size: 30px;
-                padding-bottom: 50px;}
+                padding-bottom: 95px;}
+
+        .me{ float: right;
+             max-width: 50%;
+             padding-right: 50px;}
     
     /*-------END OF NAV SECTION-------*/
 
@@ -112,9 +112,10 @@
         
         .clear-float{ clear: both;}
 
-        .hr{ 
-             width: ;
+        .hr{ width: ;
              height: 0px}
+
+
 /* ------------ PORTFOLIO SECTION ------------ */
 
 
@@ -130,15 +131,48 @@
 
         .travel{ grid-row: 1;
                  grid-column: 1/4;
-                 margin: auto;
-                 max-width: 66%;
-                 border-radius: 15px;}
+                 margin: auto; 
+                 max-width: 66%;}
+
+        .travel img{ border-radius: 20px;}
+
+      
+
+  .overlay0 {
+  position: absolute;
+  top: %;
+  height: 50%;
+  width: 66%;
+  opacity: .5;
+  transition: .5s ease;
+  background-color: #008CBA;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.travel:hover .overlay0 {
+  opacity: .9;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Abril Fatface', 'Libre Franklin', 'sans serif';}
+
+
 
         .designer{ grid-row: 2;
                    grid-column: 1;
                    margin: auto auto auto 50px;
                    max-width: 80%;
-                   border-radius: 15px;}
+                   border-radius: 20px;}
 
   
 
@@ -146,13 +180,13 @@
                    grid-column: 2;
                    margin: auto;
                    max-width: 80%;
-                   border-radius: 15px;}
+                   border-radius: 20px;}
 
         .infographic{ grid-row: 2;
                       grid-column: 3;
                       margin: auto 50px auto auto;
                       max-width: 80%;
-                      border-radius: 15px;}
+                      border-radius: 20px;}
 
 
 /*------ END OF PORTFOLIO SECTION---------*/
