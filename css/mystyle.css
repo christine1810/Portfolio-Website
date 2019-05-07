@@ -47,10 +47,10 @@
         nav a:hover{ border-bottom: none;
                      color: #3B3A3A}
 
-        .sticky{ position: fixed;
+        /*----.sticky{ position: fixed;
                  top: 0;
                  width: 100%;
-                 background-color: #AC6060;}
+                 background-color: #AC6060;}----*/
 
         .mono1{
                 margin: auto;
@@ -126,67 +126,64 @@
         .grid{ display: grid;
                grid-template-rows: repeat(2, 1fr);
                grid-template-columns: repeat(3, 1fr);
-               grid-column-gap: 30px;
-              }
+               grid-gap: 10px}
 
-        .travel{ grid-row: 1;
+        
+
+        .app{    position: absolute; 
+                 max-width: 90%;
+                 padding: 0px 50px; 
+                 margin: 0 auto;
+                 grid-row: 1;
                  grid-column: 1/4;
-                 margin: auto; 
-                 max-width: 66%;}
+                }
 
-        .travel img{ border-radius: 20px;}
-
-      
-
-  .overlay0 {
+        .overlay1 { margin: auto;
   position: absolute;
-  top: %;
-  height: 50%;
-  width: 66%;
-  opacity: .5;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 90%;
+  opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
-  margin: auto;
-  border-radius: 20px;
+  background-color: #97CBD0;
 }
 
-.travel:hover .overlay0 {
+.text1 {  position: absolute;
+          color: #fff;
+          font-size: 50px;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+        }
+ 
+.app:hover .overlay1 {
   opacity: .9;
 }
 
-.text {
-  color: white;
-  font-size: 30px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-family: 'Abril Fatface', 'Libre Franklin', 'sans serif';}
-
-
-
         .designer{ grid-row: 2;
                    grid-column: 1;
-                   margin: auto auto auto 50px;
-                   max-width: 80%;
-                   border-radius: 20px;}
+                   margin: 0px auto;
+                   padding: 0px 0px 0px 50px;
+                   max-width: 80%;}
 
   
 
         .personal{ grid-row: 2;
                    grid-column: 2;
-                   margin: auto;
-                   max-width: 80%;
-                   border-radius: 20px;}
+                   margin: 0px auto;
+                   max-width: 80%;}
 
         .infographic{ grid-row: 2;
                       grid-column: 3;
-                      margin: auto 50px auto auto;
-                      max-width: 80%;
-                      border-radius: 20px;}
+                      margin: 0px auto;
+                      padding: 0px 50px 0px 0px;
+                      max-width: 80%;}
 
 
 /*------ END OF PORTFOLIO SECTION---------*/
